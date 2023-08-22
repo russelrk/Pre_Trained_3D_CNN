@@ -29,30 +29,30 @@ def weight_transfer(model3d, model2d):
     
 def resnet18_3D(pre_trained = None, num_classes = 100):
     
-    model3D = ResNet(BasicBlock, [2,2,2,2], num_classes = num_classes)
-    return weight_transfer(model3d, models.resnet18(weights="DEFAULT")) if pre_trained else model3D
+    model3d = ResNet(BasicBlock, [2,2,2,2], num_classes = num_classes)
+    return weight_transfer(model3d, models.resnet18(weights="DEFAULT")) if pre_trained else model3d
 
 
 def resnet34_3D(pre_trained = None, num_classes = 100):
     
-    model3D = ResNet(BasicBlock, [3, 4, 6, 3], num_classes = num_classes)
-    return weight_transfer(model3d, models.resnet34(weights="DEFAULT")) if pre_trained else model3D
+    model3d = ResNet(BasicBlock, [3, 4, 6, 3], num_classes = num_classes)
+    return weight_transfer(model3d, models.resnet34(weights="DEFAULT")) if pre_trained else model3d
 
 def resnet50_3D(pre_trained = None, num_classes = 100):
     
-    model3D = ResNet(Bottleneck, [3, 4, 6, 3], num_classes = num_classes)
-    return weight_transfer(model3d, models.resnet50(weights="DEFAULT")) if pre_trained else model3D
+    model3d = ResNet(Bottleneck, [3, 4, 6, 3], num_classes = num_classes)
+    return weight_transfer(model3d, models.resnet50(weights="DEFAULT")) if pre_trained else model3d
 
 
 def resnet101_3D(pre_trained = None, num_classes = 100):
     
-    model3D = ResNet(Bottleneck, [3, 4, 23, 3], num_classes = num_classes)
-    return weight_transfer(model3d, models.resnet101(weights="DEFAULT")) if pre_trained else model3D
+    model3d = ResNet(Bottleneck, [3, 4, 23, 3], num_classes = num_classes)
+    return weight_transfer(model3d, models.resnet101(weights="DEFAULT")) if pre_trained else model3d
 
 def resnet152_D(pre_trained = None, num_classes = 100):
     
-    model3D = ResNet(Bottleneck, [3, 8, 36, 3], num_classes = num_classes)
-    return weight_transfer(model3d, models.resnet152(weights="DEFAULT")) if pre_trained else model3D
+    model3d = ResNet(Bottleneck, [3, 8, 36, 3], num_classes = num_classes)
+    return weight_transfer(model3d, models.resnet152(weights="DEFAULT")) if pre_trained else model3d
 
 
 
