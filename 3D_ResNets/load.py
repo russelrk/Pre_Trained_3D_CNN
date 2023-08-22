@@ -1,5 +1,11 @@
 import os
 
-from 2D_to_3D_Weight_Transfer import pre_trained_3D_resnet
+from 2D_to_3D_Weight_Transfer import resnet183D, resnet343D, resnet503D, resnet1013D, resnet1523D
 
-model = pre_trained_3D_resnet(pre_trained = True, num_classes = 2)
+# how to import 3D resnet 18
+model = resnet183D(pre_trained = True, num_classes = 2)
+
+# how to import 3D resnet 34
+model = resnet343D(pre_trained = True, num_classes = 2)
+
+
