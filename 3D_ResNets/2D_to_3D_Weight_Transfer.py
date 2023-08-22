@@ -1,3 +1,6 @@
+from 3D_ResNet import ResNet
+from torchvision import models
+
 def pre_trained_3D_resnet(pre_trained = None, num_classes = 100):
     
     model = ResNet(BasicBlock, [2,2,2,2], num_classes = num_classes)
