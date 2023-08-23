@@ -26,7 +26,9 @@ To learn more about the DEWT technique, its underlying principles, and implement
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute the code and models. However, it comes with no warranty or liability. If you use the repository in your projects, we kindly request attribution.
+This repository is governed by the terms of the [MIT License](LICENSE). This license grants you the freedom to utilize, adapt, and distribute both the code and models. It's important to note that any supplementary licenses specified within individual model folders must also be respected.
+
+Nonetheless, it's crucial to understand that this software is offered without any warranty or liability. Should you incorporate this repository into your projects, we kindly ask for attribution as a gesture of acknowledgment.
 
 ---
 
