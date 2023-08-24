@@ -4,9 +4,9 @@ Welcome to the 3D ResNet Models subfolder! This section contains everything you 
 
 ### Files
 
-- **2D_to_3D_Weight_Transfer.py**: This file hosts the code implementation for the groundbreaking weight transfer technique that bridges the gap between 2D and 3D ResNet models. By intelligently transferring pre-trained weights using dimension expansion, this technique facilitates effective knowledge transfer.
+- **Weight_Transfer_2D_to_3D.py**: This file hosts the code implementation for the groundbreaking weight transfer technique that bridges the gap between 2D and 3D ResNet models. By intelligently transferring pre-trained weights using dimension expansion, this technique facilitates effective knowledge transfer.
 
-- **3D_ResNet.py**: In this file, you'll find the blueprint for constructing 3D ResNet models using the pre-trained weights from their 2D counterparts. These models are optimized for handling complex 3D data while benefiting from the learned features of the 2D models.
+- **ResNet3D.py**: In this file, you'll find the blueprint for constructing 3D ResNet models using the pre-trained weights from their 2D counterparts. These models are optimized for handling complex 3D data while benefiting from the learned features of the 2D models.
 
 - **load.py**: This file serves as a guide on how to load and deploy the 3D ResNet models after the weight transfer process. It provides practical insights into integrating the models into your projects for further exploration and usage.
 
