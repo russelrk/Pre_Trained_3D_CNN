@@ -1,4 +1,4 @@
-from 3D_ResNet import ResNet
+from ResNet3D import ResNet
 from torchvision import models
 
 def weight_transfer(model3d, model2d):
